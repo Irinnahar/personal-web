@@ -1,0 +1,78 @@
+
+@font-face {
+    font-family: 'dancing_script_otregular';
+    src: url('../assests/fonts/dancingscript-regular-webfont.woff2') format('woff2'),
+         url('../assests/fonts/dancingscript-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+*:focus{ outline: none}
+.navbar-brand{
+    font-size: 2.5rem;
+    letter-spacing: 5px;
+}
+.title {
+    line-height: 0;
+    margin-top: 12px;
+}
+.navbar.navbar-expand-lg.navbar-dark.bg-dark.navbar-fixed-top {
+    background-color: black!important;
+    padding: 0;
+}
+ .navbar-dark .navbar-nav .nav-link:focus{
+    color: #000;
+    background-color: #FFF;
+    padding: .8em 1.5em;
+    font-size: 1.2rem;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: #eca204;
+    font-size: 1.2em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: .8em 1em;
+    transition: .5s all;
+}
+#home {
+    background: url("../assests/images/background.jpg");
+    background-size: auto auto;
+    position: relative;
+
+}
+#home .container {
+    padding: 12% 0;
+    text-align: center;
+}
+#home h1,h2,p {
+    color: #fff;
+}
+#home h1{
+    font-family: 'dancing_script_otregular';
+    font-size: 5em;
+    letter-spacing: 3px;
+}
+#home h2 {
+    margin: 3% 0;
+}
+#home p {
+    font-size: 21px;
+}
+#home button {
+    text-transform: uppercase;
+    background: none;
+    color: #fff;
+    font-size: 1.4rem;
+    padding: .2em 1.2em;
+    margin: 10px;
+    border: 2px solid #835e10;
+    cursor: pointer;
+    transition: .5s all;
+}
+#home button:hover{
+    background: #eca204;
+}
