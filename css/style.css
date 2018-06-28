@@ -76,3 +76,11 @@ body{
 #home button:hover{
     background: #eca204;
 }
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 13px;
+}
