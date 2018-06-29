@@ -8,7 +8,7 @@
 
 }
 body{
-    
+    box-sizing: border-box;
 }
 #home, .navbar{
     font-family: 'Yanone Kaffeesatz', sans-serif;
